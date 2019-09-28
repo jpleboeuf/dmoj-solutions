@@ -1,0 +1,5 @@
+# Ninja build file for problem 'helloworld' 
+ 
+include ../../build/build_head.ninja 
+ 
+build helloworld.exe: cc helloworld.cc 
