@@ -13,7 +13,6 @@ clang: warning: argument unused during compilation: '-fmax-errors=5' [-Wunused-c
 ### Execution Results
 
 ```
-
 Test case #1:	AC (TooSimple)	[0.006s,	1.62 MB]	(100/100)
 
 

@@ -20,20 +20,20 @@ See also:
 With this in mind, using `#define`s and basic arithmetic, it's easy to define digits from zero to nine, and the number 10; then come the characters needed to write "hello, world!".
 
 | Character | ASCII code |
-|-----------+------------|
-| h         | 104        |
-| e         | 101        |
-| l         | 108        |
-| l         | 108        |
-| o         | 111        |
-| ,         |  44        |
-|           |  32        |
-| w         | 119        |
-| o         | 111        |
-| r         | 114        |
-| l         | 108        |
-| d         | 100        |
-| !         |  33        |
+|   :---:   |        ---:|
+|     h     |        104 |
+|     e     |        101 |
+|     l     |        108 |
+|     l     |        108 |
+|     o     |        111 |
+|     ,     |         44 |
+|     ␠     |         32 |
+|     w     |        119 |
+|     o     |        111 |
+|     r     |        114 |
+|     l     |        108 |
+|     d     |        100 |
+|     !     |         33 |
 
 To get the uppercase 'H' and 'W', I chose to use the `toupper()` function.
 Retrospectively, it's a bit stupid, because we don't need the lowercase letters.
