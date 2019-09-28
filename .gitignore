@@ -1,0 +1,9 @@
+# Directories containing the files downloaded when saving the problems' web pages:
+*.en.html
+
+# Ninja directories:
+.ninja_log
+.ninja_deps
+
+# Windows Executables:
+*.exe

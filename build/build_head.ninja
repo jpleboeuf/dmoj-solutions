@@ -1,0 +1,4 @@
+cflags = -std=c++17 -Weverything -target x86_64-pc-windows-gnu
+
+rule cc
+  command = clang++ $cflags $in -o $out
