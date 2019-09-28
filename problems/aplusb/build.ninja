@@ -1,0 +1,5 @@
+# Ninja build file for problem 'aplusb' 
+ 
+include ../../build/build_head.ninja 
+ 
+build aplusb.exe: cc aplusb.cc 
