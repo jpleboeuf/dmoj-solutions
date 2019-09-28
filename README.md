@@ -14,8 +14,8 @@ Inside a problem subdirectory, can be found:
 * the problem in PDF format in the file _`problem_name`_`.en.pdf` (downloaded from DMOJ);
 * my coded solution;
 * a Ninja build file to create the executable for the coded solution;
-* the DMOJ status of the coded solution, in the `STATUS.md` file;
-* my notes relating to the problem, in the `NOTES.md` file, containing analyses, insights, or tips.
+* the DMOJ status of the coded solution, in the `status.md` file;
+* my notes relating to the problem, in the `notes.md` file, containing analyses, insights, or tips.
 
 ## Building the solutions
 
