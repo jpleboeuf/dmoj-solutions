@@ -1,0 +1,5 @@
+# Ninja build file for problem 'toosimple' 
+ 
+include ../../build/build_head.ninja 
+ 
+build toosimple.exe: cc toosimple.cc 
