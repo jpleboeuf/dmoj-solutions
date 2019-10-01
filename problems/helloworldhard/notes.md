@@ -1,9 +1,10 @@
 # Notes
 
 Interpreting "Output Specification: `Hello, World!`, 3 times, on three different lines."
-another way, as:
+almost the dumbest way possible, that is to say, as:
 
-- printing `Hello, World!` 3 times per line, on 3 new lines, therefore 3x3=9 times in total.
+- printing `Hello, World!` 3 times, each time on a new line, but without ending the last line;
+- and also code-wise: multiple `cout`-s, without using a loop.
 
 ⇒ Wrong answer :(
 
