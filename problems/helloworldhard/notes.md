@@ -1,10 +1,10 @@
 # Notes
 
 Interpreting "Output Specification: `Hello, World!`, 3 times, on three different lines."
-in a smarter way yet still dumb, that is to say, as:
+almost the dumbest way possible, that is to say, as:
 
-- printing `Hello, World!` 3 times, each time on a new line, but making each new line different by adding n spaces before `Hello, World!`, n starting at 0 for the first line;
-- also code-wise: still replacing the `endl`-s by `\n`-s, but back to using 3 `cout`-s, still without using a loop.
+- printing `Hello, World!` 3 times, each time on a new line, but putting each `endl` at the beginning of each new line instead of the end;
+- also code-wise: thus back to using `endl`-s instead of `\n`-s, and still back to using 3 `cout`-s, still without using a loop.
 
 ⇒ Wrong answer :(
 
