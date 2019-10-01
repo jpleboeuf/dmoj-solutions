@@ -1,12 +1,12 @@
 # Notes
 
 Interpreting "Output Specification: `Hello, World!`, 3 times, on three different lines."
-the dumbest way possible (third take, variation of the second take in Try 04), that is to say, as:
+the dumbest way possible (fourth take, small variation of the third take in Try 05), that is to say, as:
 
 - printing `Hello, World!` 3 times, each time on a new line;
-- and also code wise: going back to using `endl`-s instead of `\n`-s, and still without using a loop.
+- and also code-wise: removing the explicit `return 0;` at the end of the code, and still without using a loop.
 
-Similar to Try 04, but back to using `endl`.
+Similar to Try 05, but without `return 0` at the end of the code.
 
 ⇒ Wrong answer :(
 
