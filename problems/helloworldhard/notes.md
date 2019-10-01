@@ -1,12 +1,12 @@
 # Notes
 
 Interpreting "Output Specification: `Hello, World!`, 3 times, on three different lines."
-almost the dumbest way possible (another take, similar to Try 03), that is to say, as:
+almost the dumbest way possible (another take, similar to Try 04), that is to say, as:
 
-- printing `Hello, World!` 3 times, each time on a new line, but without ending the last line (it's a variation of Try 03, the code is a bit different);
-- and also code-wise: back to replacing the `endl`-s by `\n`-s, and using only one `cout`, but still without using a loop.
+- printing `Hello, World!` 3 times, each time on a new line, back to ending the last line (it's a variation of Try 04, the code is a bit different, like Try 08);
+- and also code-wise: still replacing the `endl`-s by `\n`-s, and still using only one `cout`, but still without using a loop.
 
-Similar to Try 03, but using explicitely `\n` as eol, and using a string variable.
+Similar to Try 04, but using a string variable.
 
 ⇒ Wrong answer :(
 
