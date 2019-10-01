@@ -1,9 +1,9 @@
 # Notes
 
 Interpreting "Output Specification: `Hello, World!`, 3 times, on three different lines."
-the dumbest way possible, that is to say, as:
+another way, as:
 
-- printing `Hello, World!` 3 times, each time on a new line.
+- printing `Hello, World!` 3 times per line, on 3 new lines, therefore 3x3=9 times in total.
 
 ⇒ Wrong answer :(
 

@@ -1,6 +1,6 @@
-## [Submission of "Hello, World! (Hard)" by jpleboeuf](https://dmoj.ca/submission/1607893)
+## [Submission of "Hello, World! (Hard)" by jpleboeuf](https://dmoj.ca/submission/1607896)
 
-Sept. 27, 2019, 3:02 p.m.
+Sept. 27, 2019, 3:08 p.m.
 
 Clang++
 
