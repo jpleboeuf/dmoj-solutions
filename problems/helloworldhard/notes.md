@@ -1,10 +1,12 @@
 # Notes
 
 Interpreting "Output Specification: `Hello, World!`, 3 times, on three different lines."
-almost the dumbest way possible, that is to say, as:
+almost the dumbest way possible (another take, variation of the third take in Try 05), that is to say, as:
 
-- printing `Hello, World!` 3 times, each time on a new line, but putting each `endl` at the beginning of each new line instead of the end;
-- also code-wise: thus back to using `endl`-s instead of `\n`-s, and still back to using 3 `cout`-s, still without using a loop.
+- printing `Hello, World!` 3 times, each time on a new line, but back to putting each `endl` at the end of each new line instead of the start;
+- also, code-wise: it's Try 05, but still following the trend started in Try 07, of using a string variable.
+
+Similar to Try 05, but using a string variable.
 
 ⇒ Wrong answer :(
 

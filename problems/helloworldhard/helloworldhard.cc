@@ -5,9 +5,9 @@ using namespace std;
 int main() {
 
   string hw = "Hello, World!";
-  cout << endl << hw;
-  cout << endl << hw;
-  cout << endl << hw;
+  cout << hw << endl;
+  cout << hw << endl;
+  cout << hw << endl;
 
   return 0;
 }
