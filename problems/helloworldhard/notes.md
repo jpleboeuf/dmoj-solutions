@@ -1,27 +1,14 @@
 # Notes
 
 Interpreting "Output Specification: `Hello, World!`, 3 times, on three different lines."
-in a smarter way, as:
+almost the dumbest way possible (another take, similar to Try 03), that is to say, as:
 
-- printing `Hello, World!` 3 times, each time on a new line, but simulating removing the carriage returns;
-- and also code-wise: switching to using a string variable, and still without using a loop.
+- printing `Hello, World!` 3 times, each time on a new line, but without ending the last line (it's a variation of Try 03, the code is a bit different);
+- and also code-wise: back to replacing the `endl`-s by `\n`-s, and using only one `cout`, but still without using a loop.
+
+Similar to Try 03, but using explicitely `\n` as eol, and using a string variable.
 
 ⇒ Wrong answer :(
-
-As a side note, `-Weverything` returns 3 warnings:
-
-```
-helloworldhard.cc:10:22: warning: implicit conversion changes signedness: 'int' to 'std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type' (aka 'unsigned long long') [-Wsign-conversion]
-  cout << string(    l, ' ') << hw << endl;
-          ~~~~~~     ^
-helloworldhard.cc:11:20: warning: implicit conversion changes signedness: 'int' to 'std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type' (aka 'unsigned long long') [-Wsign-conversion]
-  cout << string(2 * l, ' ') << hw << endl;
-          ~~~~~~ ~~^~~
-helloworldhard.cc:8:14: warning: implicit conversion loses integer precision: 'std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type' (aka 'unsigned long long') to 'int' [-Wshorten-64-to-32]
-  int l = hw.length();
-      ~   ~~~^~~~~~~~
-3 warnings generated.
-```
 
 ## Some concepts
 
