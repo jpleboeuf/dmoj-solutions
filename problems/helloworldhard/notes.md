@@ -1,9 +1,9 @@
 # Notes
 
 Interpreting "Output Specification: `Hello, World!`, 3 times, on three different lines."
-in a smarter way but very hacky, that is to say, as:
+in a smarter way but very hacky (second take), that is to say, as:
 
-- printing `Hello, World!` 3 times, each time on a new line, but using a different eol on each line, therefore also making each line different, but only in the code (it's starting to look desperate).
+- printing `Hello, World!` 3 times, each time on a new line, but using a different eol on each line, therefore also making each line different, using `\n` on the first line, `\r\n` on the second line, and `\n\r` on the last line.
 
 ⇒ Wrong answer :(
 
