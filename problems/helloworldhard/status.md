@@ -1,21 +1,19 @@
-## [Submission of "Hello, World! (Hard)" by jpleboeuf](https://dmoj.ca/submission/1607978)
+## [Submission of "Hello, World! (Hard)" by jpleboeuf](https://dmoj.ca/submission/1616858)
 
-Sept. 27, 2019, 4:29 p.m.
+Oct. 4, 2019, 4:37 a.m.
 
 Clang++
 
 ### Compilation Warnings
 
-```
-clang: warning: argument unused during compilation: '-fmax-errors=5' [-Wunused-command-line-argument]
-```
+?
 
 ### Execution Results
 
 ```
-Test case #1:	WA	[0.004s,	1.62 MB]	(0/100)
+Test case #1:	WA	[0.002s,	1.73 MB]	(0/100)
 
 
-Resources: 0.004s, 1.62 MB
-Final score: 0/100 (0.0/3 points)
+Resources: 0.002s, 1.73 MB
+Final score: 0/100 (0.0/1 points)
 ```
