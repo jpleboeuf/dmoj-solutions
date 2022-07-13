@@ -1,6 +1,6 @@
-## [Submission of "Hello, World! (Hard)" by jpleboeuf](https://dmoj.ca/submission/1616858)
+## [Submission of "Hello, World! (Hard)" by jpleboeuf](https://dmoj.ca/submission/1618334)
 
-Oct. 4, 2019, 4:37 a.m.
+Oct. 5, 2019, 5:50 a.m.
 
 Clang++
 
@@ -11,9 +11,9 @@ Clang++
 ### Execution Results
 
 ```
-Test case #1:	WA	[0.002s,	1.73 MB]	(0/100)
+Test case #1:	WA	[0.002s,	1.80 MB]	(0/100)
 
 
-Resources: 0.002s, 1.73 MB
+Resources: 0.002s, 1.80 MB
 Final score: 0/100 (0.0/1 points)
 ```
