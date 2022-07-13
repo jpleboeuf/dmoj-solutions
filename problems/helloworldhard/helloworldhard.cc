@@ -6,8 +6,8 @@ int main() {
 
   string hw = "Hello, World!";
   cout << hw << "\n";    // 1. Unix systems
-  cout << hw << "\r\n";  // 2. Windows
-  cout << hw << "\r";    // 3. old Mac-s
+  cout << hw << "\r";    // 2. old Mac-s
+  cout << hw << "\r\n";  // 3. Windows
 
   return 0;
 }
